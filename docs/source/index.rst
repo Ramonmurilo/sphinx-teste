@@ -10,9 +10,12 @@ Bem-vindo a documentação do sphinx-teste !
    :maxdepth: 2
    :caption: Contents:
 
-.. automodule:: pets
+
+.. automodule:: main
  :members:
 
+.. automodule:: module.pets
+   :members:
 
 
 Indices and tables
