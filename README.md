@@ -1,16 +1,16 @@
-# sphinx-teste - autodocmentação + hospedagem no readthedocs
+# (sphinx-teste) | autodocmentação + hospedagem no readthedocs
 teste de documentação automatica (veja como ficou o exemplo desse rep <https://sphinx-teste.readthedocs.io/pt/latest/>)
 
 1. Parta de um repositório no github. Clone-o na sua máquina pessoal !
-2. Se você já não tiver um ambiente para esse projeto, recomendo que o crie
-3. instale o sphinx e os temas, caso queira:
+2. Se você já não tiver um ambiente para esse projeto, recomendo que o crie.
+3. instale o sphinx e,opcionalmente , os temas rtd, caso queira:
 ```
 conda install -c conda-forge sphinx
 ```
 ```
 conda install -c conda-forge sphinx_rtd_theme
 ```
-4. crie uma pasta docs:
+4. Entre no repositório e crie uma pasta docs:
 ```
 mkdir docs
 ```
@@ -20,7 +20,7 @@ sphinx-quickstart
 # Preencha da forma que lhe for mais convieniente, é possível apagar a pasta docs e recomeçar do início.
 ```
 6. Algumas pastas e arquivos foram criadas. Encontre os arquivos conf.py e index.rst:
-- No arquivo conf.py certifique-se/mude dos seguintes detalhes dentro do arquivo:
+- No arquivo conf.py certifique-se/mude dos/os seguintes detalhes dentro do arquivo:
 ```
 # Que o trecho semelhante a este abaixo (com os import) está descomentado
 # que o os.path está apontando para o root do repositório (neste exemplo adaptado, geralmente já está apontando)
@@ -64,7 +64,7 @@ Indices and tables
 ```
 7. Gere a documentação em html:
 ```
-# rode comando a partir da pasta "docs"
+# rode o comando a partir da pasta "docs"
 make html
 ```
 8. Indo em build/html e abrindo o index.html, já é possível ver a documentação. Agora commite a documentação para o github:
@@ -78,10 +78,13 @@ git push
 9. Acesse <https://readthedocs.org/dashboard/>. Crie uma conta, caso não possua, anexe com o github (use o mesmo email)!
 10. Selecione "importar um projeto". Importe seu projeto do GitHub (Nesta estapa, é necessário que o repositório estava público).
 11. Preencha todas as informações e siga os passos. Ao final, seu repositório já estará disponivel.
+
 Notas e próximos tutoriais.: Pode-se tornar o repositório privado logo em seguida? como adicionar módulos de um script principal ?
 Estas anotações tiveram como base os seguintes tutoriais:
+```
 https://github.com/jhonatheberson/doc-sphinx
 https://github.com/davidmorosini/python-sphinx-example
 https://www.python.org/dev/peps/pep-0257/
 https://docs.readthedocs.io/en/stable/intro/getting-started-with-sphinx.html
+```
 
