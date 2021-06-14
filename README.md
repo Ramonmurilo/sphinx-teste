@@ -1,5 +1,5 @@
 # sphinx-teste - autodocmentação + hospedagem no readthedocs
-teste de documentação automatica
+teste de documentação automatica (veja como ficou o exemplo desse rep <https://sphinx-teste.readthedocs.io/pt/latest/>)
 
 1. Parta de um repositório no github. Clone-o na sua máquina pessoal !
 2. Se você já não tiver um ambiente para esse projeto, recomendo que o crie
@@ -79,3 +79,9 @@ git push
 10. Selecione "importar um projeto". Importe seu projeto do GitHub (Nesta estapa, é necessário que o repositório estava público).
 11. Preencha todas as informações e siga os passos. Ao final, seu repositório já estará disponivel.
 Notas e próximos tutoriais.: Pode-se tornar o repositório privado logo em seguida? como adicionar módulos de um script principal ?
+Estas anotações tiveram como base os seguintes tutoriais:
+https://github.com/jhonatheberson/doc-sphinx
+https://github.com/davidmorosini/python-sphinx-example
+https://www.python.org/dev/peps/pep-0257/
+https://docs.readthedocs.io/en/stable/intro/getting-started-with-sphinx.html
+
