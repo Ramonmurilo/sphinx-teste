@@ -86,5 +86,6 @@ https://github.com/jhonatheberson/doc-sphinx
 https://github.com/davidmorosini/python-sphinx-example
 https://www.python.org/dev/peps/pep-0257/
 https://docs.readthedocs.io/en/stable/intro/getting-started-with-sphinx.html
+https://docutils.sourceforge.io/docs/user/rst/quickref.html
 ```
 
